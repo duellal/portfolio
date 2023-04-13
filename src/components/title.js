@@ -2,6 +2,7 @@ import React from "react";
 
 const Title = () => {
     return (
+        <>
         <div id="title"> 
             <h1 className="name">
                 Alexandria Duell
@@ -10,6 +11,7 @@ const Title = () => {
                 Software Engineer
             </h2>
         </div>
+        </>
     )
 }
 

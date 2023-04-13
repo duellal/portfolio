@@ -1,28 +1,27 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 
 //components
 import Header from './components/header';
 import Footer from './components/footer';
 import Title from './components/title';
 import About from './components/about'
+import Experience from './components/experience'
+import Contact from './components/contact'
+import Projects from './components/projects'
 
 function App() {
   return (
     <div className="Portfolio">
       <Header />
-        <BrowserRouter>
           <Routes>
-            <Route exact path="contact"></Route>
-            <Route exact path="experience"></Route>
-            <Route exact path="projects"></Route>
-            <Route exact path="about" element={<About />}></Route>
-            <Route exact path="/" element={<Title />}>
-              {/* <Title /> */}
-            </Route>
+            <Route index element={<Title />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="experience" element={<Experience />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="about" element={<About />} />
           </Routes>
-          </BrowserRouter>
       <Footer />
     </div>
   );
