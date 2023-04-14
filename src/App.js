@@ -17,10 +17,10 @@ function App() {
       <Header />
           <Routes>
             <Route index element={<Title />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="experience" element={<Experience />} />
-            <Route path="projects" element={<Projects />} />
             <Route path="about" element={<About />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="experience" element={<Experience />} />
+            <Route path="contact" element={<Contact />} />
           </Routes>
       <Footer />
     </div>
