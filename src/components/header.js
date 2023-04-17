@@ -11,7 +11,7 @@ import pdf from '../static/resume.pdf'
 const Header = () => {
     return (
         <header>
-            {/* <img className="logo"/> */}
+            <img className="logo" alt="AED Logo" src="favicon.ico"/>
             <Navbar>
                 <Nav tabs fill>
                     <NavItem>
