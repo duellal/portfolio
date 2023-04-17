@@ -5,31 +5,44 @@ import {
     NavItem, 
     Navbar } from "reactstrap";
 
+//Resume PDF:
+import pdf from '../static/resume.pdf'
+
 const Header = () => {
     return (
         <header>
-            {/* <img className="logo"/> */}
+            <img className="logo" alt="AED Logo" src="favicon.ico"/>
             <Navbar>
-                <Nav pills fill>
+                <Nav tabs fill>
                     <NavItem>
-                        <NavLink href="#about">
+                        <NavLink href="/">
+                            Home
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/#about">
                             About
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#projects">
+                        <NavLink href="/#projects">
                             Projects
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#experience">
+                        <NavLink href="/#experience">
                             Experience
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#contact">
+                        <NavLink href="/#contact">
                             Contact
                         </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <a href={pdf} target="_blank" rel="noreferrer">
+                            Resume
+                        </a>
                     </NavItem>
                 </Nav>
             </Navbar>
