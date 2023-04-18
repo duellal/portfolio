@@ -51,7 +51,7 @@ export default function Footer(){
                 </Nav>
             </Navbar>
 
-            <div>
+            <div className="copyright">
                 <p>
                 &copy; Alexandria Duell
                 </p>
