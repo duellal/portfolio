@@ -56,7 +56,7 @@ export default function Projects(){
                         about my findings.
                     </p>
                     <p>
-                        Based off of a project by Lambda school (now BloomTech).
+                        ** Based off of a project by Lambda school (now BloomTech).
                     </p>
                 </div>
                 <a href="https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter" target="_blank" rel="noreferrer">

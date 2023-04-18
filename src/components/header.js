@@ -36,11 +36,15 @@ export default function Header(){
                             Projects
                         </NavLink>
                     </NavItem>
+                    {/* 
+                    Doing this wehn I have time after rest of portfolio is complete:
+                    
                     <NavItem>
                         <NavLink to="#experience">
                             Experience
                         </NavLink>
-                    </NavItem>
+                    </NavItem> 
+                    */}
                     <NavItem>
                         <NavLink to="#contact">
                             Contact
