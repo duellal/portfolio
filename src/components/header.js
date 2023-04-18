@@ -10,6 +10,9 @@ import {
 //Resume PDF:
 import pdf from '../static/resume.pdf'
 
+//Header Styles:
+import "../styles/css/header.css"
+
 export default function Header(){
     const scrollToElem = (section) => {
         let elem = document.getElementById(section)
@@ -17,7 +20,7 @@ export default function Header(){
     }
 
     return (
-        <header>
+        <header id="header">
             <img className="logo" alt="AED Logo" src="favicon.ico"/>
             <Navbar>
                 <Nav tabs fill>
