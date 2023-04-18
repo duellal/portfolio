@@ -1,6 +1,8 @@
-// import React from "react"
+/* eslint-disable react/prop-types */
+import React from "react"
 
 export default function Contact(){
+
     return (
         <div id="contact">
             <h3> Get in Touch with Alex! </h3>

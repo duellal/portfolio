@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import React from "react";
 import { NavLink } from "react-router-dom";
 import {
@@ -9,11 +11,9 @@ import {
 import pdf from '../static/resume.pdf'
 
 export default function Header(){
-    const scroll = (section) => {
-        const elem = document.getElementById(`${section}`)
-        console.log(`HERE:`, elem)
-       
-        // elem.scrollIntoView()
+    const scrollToElem = (section) => {
+        let elem = document.getElementById(section)
+        elem.scrollIntoView()
     }
 
     return (
@@ -22,17 +22,17 @@ export default function Header(){
             <Navbar>
                 <Nav tabs fill>
                     <NavItem>
-                        <NavLink to="/">
+                        <NavLink to="/" onClick={() => scrollToElem("/")}>
                             Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="#about" onClick={scroll("about")}>
+                        <NavLink to="#about" onClick={() => scrollToElem("about")}>
                             About
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="#projects" onClick={null}>
+                        <NavLink to="#projects" onClick={() => scrollToElem("projects")}>
                             Projects
                         </NavLink>
                     </NavItem>
@@ -46,7 +46,7 @@ export default function Header(){
                     </NavItem> 
                     */}
                     <NavItem>
-                        <NavLink to="#contact">
+                        <NavLink to="#contact" onClick={() => scrollToElem("contact")}>
                             Contact
                         </NavLink>
                     </NavItem>
