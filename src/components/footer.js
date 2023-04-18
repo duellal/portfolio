@@ -44,7 +44,7 @@ export default function Footer(){
                         </a>
                     </NavItem>
                     <NavItem>
-                        <a href="mailto:aduellswe@gmail.com">
+                        <a href="mailto:aduellswe@gmail.com" rel=" noreferrer" target="_blank">
                             Contact
                         </a>
                     </NavItem>
