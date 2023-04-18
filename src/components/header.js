@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
     Nav, 
     NavItem, 
@@ -9,35 +9,42 @@ import {
 import pdf from '../static/resume.pdf'
 
 export default function Header(){
+    const scroll = (section) => {
+        const elem = document.getElementById(`${section}`)
+        console.log(`HERE:`, elem)
+       
+        // elem.scrollIntoView()
+    }
+
     return (
         <header>
             <img className="logo" alt="AED Logo" src="favicon.ico"/>
             <Navbar>
                 <Nav tabs fill>
                     <NavItem>
-                        <Link to="/">
+                        <NavLink to="/">
                             Home
-                        </Link>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <Link to="#about">
+                        <NavLink to="#about" onClick={scroll("about")}>
                             About
-                        </Link>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <Link to="#projects">
+                        <NavLink to="#projects" onClick={null}>
                             Projects
-                        </Link>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <Link to="#experience">
+                        <NavLink to="#experience">
                             Experience
-                        </Link>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <Link to="#contact">
+                        <NavLink to="#contact">
                             Contact
-                        </Link>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
                         <a href={pdf} target="_blank" rel="noreferrer">

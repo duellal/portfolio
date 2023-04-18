@@ -10,16 +10,15 @@ import WorkExperience from './components/experience'
 import Contact from './components/contact'
 import Projects from './components/projects'
 
-export default function App() {
-
+export default function App() {  
   return (
     <div className="Portfolio">
       <Header />
-          <Title/>
-          <About/>
-          <Projects/>
-          <WorkExperience/>
-          <Contact/>
+          <Title />
+          <About />
+          <Projects />
+          <WorkExperience />
+          <Contact />
       <Footer />
     </div>
   );

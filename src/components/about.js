@@ -3,7 +3,7 @@ import React from "react";
 export default function About(){
 
     return (
-        <div id="about">
+        <section id="about">
             <h2>About Alex</h2>
 
             <div className="about-text-pic">
@@ -12,6 +12,6 @@ export default function About(){
                 </p>
                 <img className="about-pic" alt="Picture of Alex" href="portfolio-pic.jpeg"/>
             </div>
-        </div>
+        </section>
     )
 }
