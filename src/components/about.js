@@ -6,7 +6,7 @@ export default function About(){
 
     return (
         <section id="about">
-            <h2>About Alex</h2>
+            <h3>About Alex</h3>
 
             <div className="about-text-pic">
                 <p className="about-text">
