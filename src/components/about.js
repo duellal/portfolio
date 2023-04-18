@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+export default function About(){
 
     return (
         <div id="about">
@@ -15,5 +15,3 @@ const About = () => {
         </div>
     )
 }
-
-export default About

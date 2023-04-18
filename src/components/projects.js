@@ -5,4 +5,9 @@
 // import austin-shelter-pic from `../images/austin-animal-shelter-pic.webp`
 
 export default function Projects(){
+    return(
+        <div id="projects">
+            
+        </div>
+    )
 }

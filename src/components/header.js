@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import {
     Nav, 
     NavItem, 
@@ -15,29 +15,29 @@ export default function Header(){
             <Navbar>
                 <Nav tabs fill>
                     <NavItem>
-                        <NavLink to="/">
+                        <Link to="/">
                             Home
-                        </NavLink>
+                        </Link>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="/#about">
+                        <Link to="#about">
                             About
-                        </NavLink>
+                        </Link>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="/#projects">
+                        <Link to="#projects">
                             Projects
-                        </NavLink>
+                        </Link>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="/#experience">
+                        <Link to="#experience">
                             Experience
-                        </NavLink>
+                        </Link>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="/#contact">
+                        <Link to="#contact">
                             Contact
-                        </NavLink>
+                        </Link>
                     </NavItem>
                     <NavItem>
                         <a href={pdf} target="_blank" rel="noreferrer">
