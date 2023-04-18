@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import {
     Nav, 
     NavItem, 
@@ -8,34 +8,41 @@ import {
 //Resume PDF:
 import pdf from '../static/resume.pdf'
 
-const Header = () => {
+export default function Header(){
+    const scroll = (section) => {
+        const elem = document.getElementById(`${section}`)
+        console.log(`HERE:`, elem)
+       
+        // elem.scrollIntoView()
+    }
+
     return (
         <header>
             <img className="logo" alt="AED Logo" src="favicon.ico"/>
             <Navbar>
                 <Nav tabs fill>
                     <NavItem>
-                        <NavLink href="/">
+                        <NavLink to="/">
                             Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#about">
+                        <NavLink to="#about" onClick={scroll("about")}>
                             About
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#projects">
+                        <NavLink to="#projects" onClick={null}>
                             Projects
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#experience">
+                        <NavLink to="#experience">
                             Experience
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#contact">
+                        <NavLink to="#contact">
                             Contact
                         </NavLink>
                     </NavItem>
@@ -49,5 +56,3 @@ const Header = () => {
         </header>
     )
 }
-
-export default Header
