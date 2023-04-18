@@ -1,4 +1,6 @@
 import React from "react";
+//profile pic
+import headshot from "../static/images/portfolio-pic.jpeg"
 
 export default function About(){
 
@@ -10,7 +12,7 @@ export default function About(){
                 <p className="about-text">
                     Text goes here.
                 </p>
-                <img className="about-pic" alt="Picture of Alex" href="portfolio-pic.jpeg"/>
+                <img className="about-pic" src={headshot} alt="Picture of Alex"  loading="lazy"/>
             </div>
         </section>
     )
