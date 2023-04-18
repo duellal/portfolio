@@ -8,34 +8,34 @@ import {
 //Resume PDF:
 import pdf from '../static/resume.pdf'
 
-const Header = () => {
+export default function Header(){
     return (
         <header>
             <img className="logo" alt="AED Logo" src="favicon.ico"/>
             <Navbar>
                 <Nav tabs fill>
                     <NavItem>
-                        <NavLink href="/">
+                        <NavLink to="/">
                             Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#about">
+                        <NavLink to="/#about">
                             About
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#projects">
+                        <NavLink to="/#projects">
                             Projects
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#experience">
+                        <NavLink to="/#experience">
                             Experience
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#contact">
+                        <NavLink to="/#contact">
                             Contact
                         </NavLink>
                     </NavItem>
@@ -49,5 +49,3 @@ const Header = () => {
         </header>
     )
 }
-
-export default Header

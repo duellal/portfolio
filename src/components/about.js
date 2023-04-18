@@ -8,9 +8,9 @@ const About = () => {
 
             <div className="about-text-pic">
                 <p className="about-text">
-
+                    Text goes here.
                 </p>
-                {/* <img className="about-pic"/> */}
+                <img className="about-pic" alt="Picture of Alex" href="portfolio-pic.jpeg"/>
             </div>
         </div>
     )
