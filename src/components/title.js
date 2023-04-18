@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 
 export default function Title(){
+    
     return (
         <section id="/"> 
             <h1 className="name">
