@@ -1,10 +1,14 @@
 /* eslint-disable react/prop-types */
+
 import React from "react";
+
+//Title Styles:
+import "../styles/css/title.css"
 
 export default function Title(){
     
     return (
-        <section id="/"> 
+        <section id="title"> 
             <h1 className="name">
                 Alexandria Duell
             </h1>

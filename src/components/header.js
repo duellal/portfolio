@@ -21,20 +21,22 @@ export default function Header(){
 
     return (
         <header id="header">
-            <img className="logo" alt="AED Logo" src="favicon.ico"/>
+            <div className="logoDiv">
+                <img className="logo" alt="AED Logo" src="favicon.ico"/>
+            </div>
             <Navbar>
                 <Nav tabs fill>
-                    <NavItem>
-                        <NavLink to="/" onClick={() => scrollToElem("/")}>
+                    <NavItem className="home">
+                        <NavLink to="/" onClick={() => scrollToElem("title")}>
                             Home
                         </NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem className="about">
                         <NavLink to="#about" onClick={() => scrollToElem("about")}>
                             About
                         </NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem className="projects" >
                         <NavLink to="#projects" onClick={() => scrollToElem("projects")}>
                             Projects
                         </NavLink>
@@ -42,18 +44,18 @@ export default function Header(){
                     {/* 
                     Doing this wehn I have time after rest of portfolio is complete:
                     
-                    <NavItem>
+                    <NavItem className="experience">
                         <NavLink to="#experience">
                             Experience
                         </NavLink>
                     </NavItem> 
                     */}
-                    <NavItem>
+                    <NavItem className="contact" >
                         <NavLink to="#contact" onClick={() => scrollToElem("contact")}>
                             Contact
                         </NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem className="resume">
                         <a href={pdf} target="_blank" rel="noreferrer">
                             Resume
                         </a>

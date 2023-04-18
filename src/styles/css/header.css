@@ -1,4 +1,53 @@
 #header{
     position: fixed;
-    width: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.logoDiv{
+    width: 60%;
+    align-items: flex-start;
+}
+
+.logo{
+    margin-right: 90%;
+}
+
+#header .navbar{
+    width: 40%;
+    padding-right: 2%;
+}
+
+#header .nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#header .nav-item{
+    width: 20%;
+    padding: 1%;
+    margin: 0% 5px 0% 5px;
+}
+
+.home{
+    background-color: rgb(184, 126, 238);
+}
+
+.about{
+    background-color: greenyellow;
+}
+
+.projects{
+    background-color: orange;
+}
+
+.contact{
+    background-color: rgb(255, 112, 112);
+}
+
+.resume{
+    background-color: yellow
 }
