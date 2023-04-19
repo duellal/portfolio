@@ -21,14 +21,14 @@ export default function About(){
                     I originally got a degree in Mathematics and Elementary Education at Grand Valley State University. I had quite a turbulent experience in the education field. My sister, who also changed careers into the technology field, told me that I should try to learn code. She told me that I would really enjoy it, especially with my mathematics background. 
                 </p>
                 <p className="about-text">
-                    I refined my programming skills through online courses and self-teaching with the support of my sister. Over the course of the past year, I went from a basic understanding of programming to building a
+                    I refined my programming skills through online courses and self-teaching with the support of my sister. Over the course of the past year, I went from a basic understanding of programming to building a {' '}
                     <a href="https://github.com/Character-Randomizer"target="_blank" rel="noreferrer"> 
                         react application from scratch
                     </a>
                     . I have worked on a variety of Agile teams to deliver a digital products under tight deadlines.
                 </p>
                 <p className="about-text">
-                    Currently, I am a software engineer at
+                    Currently, I am a software engineer at {' '}
                     <a href="https://www.storysquad.education/" target="_blank" rel="noreferrer">
                         Story Squad
                     </a>

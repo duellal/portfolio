@@ -24,7 +24,7 @@ export default function Projects(){
                 </h2>
                 <img src={charRandomPic} className="char-random-pic" loading="lazy" alt="Various different possible headshots of non-player characters (NPCs) drawn and colored" />
                 <p className="img-text">
-                    Picture from 
+                    Picture from {' '}
                     <a href="https://thenerdd.com/2021/01/15/7-steps-to-make-a-dd-npc" target="new">
                         thenerdd.com
                     </a>
@@ -50,15 +50,15 @@ export default function Projects(){
                 <img src={austinShelterPic} className="shelter-pic" loading="lazy" alt="Golden lab looking sad in a kennel" />
                 <div className="shelter-p-div">
                     <p>
-                        I analyzed Austin Animal Shelter&apos;s claim of being a no-kill shelter based off of data found by the 
+                        I analyzed Austin Animal Shelter&apos;s claim of being a no-kill shelter based off of data found by the {' '}
                         <a href="https://data.austintexas.gov/" target="_blank" rel="noreferrer">
                             Texas Government
                         </a>
-                        . I made a 
+                        . I made a {' '}
                         <a href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
                             Medium article
                         </a>
-                        about my findings.
+                        {' '} about my findings.
                     </p>
                     <p>
                         ** Based off of a project by Lambda school (now BloomTech).
