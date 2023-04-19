@@ -22,13 +22,15 @@ export default function Projects(){
                     Character Randomization Website
                 </a>
                 </h2>
-                <img src={charRandomPic} className="char-random-pic" loading="lazy" alt="Various different possible headshots of non-player characters (NPCs) drawn and colored" />
-                <p className="img-text">
-                    Picture from {' '}
-                    <a href="https://thenerdd.com/2021/01/15/7-steps-to-make-a-dd-npc" target="new">
-                        thenerdd.com
-                    </a>
-               </p>
+                <div className="char-pic">
+                    <img src={charRandomPic} className="char-random-pic" loading="lazy" alt="Various different possible headshots of non-player characters (NPCs) drawn and colored" />
+                    <p>
+                        Picture from {' '}
+                        <a href="https://thenerdd.com/2021/01/15/7-steps-to-make-a-dd-npc" target="new">
+                            thenerdd.com
+                        </a>
+                </p>
+               </div>
                <div className="char-text-box">
                     <div className="char-p-div">
                         <p>
@@ -39,9 +41,9 @@ export default function Projects(){
                         </p>
                     </div>
                     <div className="github">
-                        <a href="https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter" target="new">
-                            <img src={gitHub} />
-                        </a>
+                        <img className="github-logo img" src={gitHub} onClick={() => {
+                            window.open(`https://github.com/Character-Randomizer`)
+                        }}/>
                     </div>
                 </div>
             </div>
@@ -70,9 +72,9 @@ export default function Projects(){
                         </p>
                     </div>
                     <div className="github">
-                        <a href="https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter" target="new">
-                            <img src={gitHub} />
-                        </a>
+                        <img className="github-logo img" src={gitHub} onClick={() => {
+                            window.open(`https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter`)
+                        }}/>
                     </div>
                 </div>                    
             </div>

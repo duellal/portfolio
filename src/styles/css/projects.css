@@ -13,10 +13,49 @@
     color: #07cae8;
 }
 
-#projects img{
-    width: 40%;
+.github-logo{
+    width: 50%;
+}
+
+.char-random-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 8%;
+}
+
+.char-random-div h2{
+    width: 70%;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.char-pic {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 40%
+}
+
+.char-random-pic{
+    width: 100%;
+}
+
+.char-pic p{
+    width: 100%;
+}
+
+.char-text-box{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 0 6%;
+}
+
+.char-p-div p{
+    padding: 4% 0;
 }
 
 .github{
-    width: 8%;
+    margin: 0 0 45% 2%;
 }
