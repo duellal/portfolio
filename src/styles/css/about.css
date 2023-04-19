@@ -1,0 +1,27 @@
+#about{
+    padding: 10% 5%;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+#about h3{
+    width: 100%;
+    padding: 5% 0;
+}
+
+.about-text{
+    padding: 1% 9% 2% 2%;
+    text-align: justify;
+}
+
+.about-text-pic{
+    display: flex;
+    align-items: center;
+}
+
+.about-pic{
+    /* padding: 0 2%; */
+    border-radius: 20%;
+    box-shadow: 0px 0px 30px #5c21aa;
+    /* border: solid #69C913; */
+}
