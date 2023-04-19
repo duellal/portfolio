@@ -10,6 +10,9 @@ import {
 //Resume PDF:
 import pdf from '../static/resume.pdf'
 
+//Header Styles:
+import "../styles/css/header.css"
+
 export default function Header(){
     const scrollToElem = (section) => {
         let elem = document.getElementById(section)
@@ -17,43 +20,45 @@ export default function Header(){
     }
 
     return (
-        <header>
-            <img className="logo" alt="AED Logo" src="favicon.ico"/>
+        <header id="header">
+            <div className="logoDiv">
+                <img className="logo" alt="AED Logo" src="favicon.ico"/>
+            </div>
             <Navbar>
-                <Nav tabs fill>
-                    <NavItem>
-                        <NavLink to="/" onClick={() => scrollToElem("/")}>
+                <Nav>
+                    <NavItem className="home" onClick={() => scrollToElem("title")}>
+                        <NavLink to="/" >
                             Home
                         </NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink to="#about" onClick={() => scrollToElem("about")}>
+                    <NavItem className="about" onClick={() => scrollToElem("about")}>
+                        <NavLink to="#about" >
                             About
                         </NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink to="#projects" onClick={() => scrollToElem("projects")}>
+                    <NavItem className="projects" onClick={() => scrollToElem("projects")}>
+                        <NavLink to="#projects" >
                             Projects
                         </NavLink>
                     </NavItem>
                     {/* 
                     Doing this wehn I have time after rest of portfolio is complete:
                     
-                    <NavItem>
+                    <NavItem className="experience">
                         <NavLink to="#experience">
                             Experience
                         </NavLink>
                     </NavItem> 
                     */}
-                    <NavItem>
-                        <NavLink to="#contact" onClick={() => scrollToElem("contact")}>
+                    <NavItem className="contact" onClick={() => scrollToElem("contact")}>
+                        <NavLink to="#contact" >
                             Contact
                         </NavLink>
                     </NavItem>
-                    <NavItem>
-                        <a href={pdf} target="_blank" rel="noreferrer">
+                    <NavItem className="resume" onClick={() => { window.open(pdf) }}>
+                        <span className="resume-span">
                             Resume
-                        </a>
+                        </span>
                     </NavItem>
                 </Nav>
             </Navbar>

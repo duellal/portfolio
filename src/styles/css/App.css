@@ -1,0 +1,35 @@
+h1 {
+  font-size: 6rem;
+}
+
+button {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3{
+  font-size: 3rem;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+  color: #859aaf;
+}
+
+.copyright p {
+  font-size: 1.2rem;
+}
+
+.Portfolio {
+  text-align: center;
+  scroll-behavior: smooth;
+  background-color: #0b081f;
+}
+
+section{
+  scroll-behavior: smooth;
+}

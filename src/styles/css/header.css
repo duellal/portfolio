@@ -1,0 +1,80 @@
+#header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #091941;
+}
+
+.logoDiv{
+    width: 60%;
+    align-items: flex-start;
+}
+
+.logo{
+    margin-right: 90%;
+    width: 6%;
+}
+
+#header .navbar{
+    width: 40%;
+    padding: 0% 1%;
+    margin-top: 3%;
+}
+
+#header .nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#header .nav-item {
+    width: 18.25%;
+    padding: 1.5% 1%;
+    background-color: #394f89;
+}
+
+#header .nav-item a{
+    font-size: 1.3rem;
+    color: #07cae8;
+}
+
+.home{
+    transition: 0.3s;
+}
+.home:hover{
+    transform: scale(1.1)
+}
+
+.about{
+    transition: 0.3s;
+}
+.about:hover{
+    transform: scale(1.1)
+}
+
+.projects{
+    transition: 0.3s;
+}
+.projects:hover{
+    transform: scale(1.1)
+}
+
+.contact{
+    transition: 0.3s;
+}
+.contact:hover{
+    transform: scale(1.1)
+}
+
+.resume{
+    transition: 0.3s;
+}
+.resume:hover{
+    transform: scale(1.1)
+}
+.resume-span{
+    font-size: 1.3rem;
+    width: 100%;
+    color: #07cae8;
+}
