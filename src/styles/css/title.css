@@ -1,3 +1,45 @@
 #title{
- padding: 10% 5%;   
+    padding: 20% 0 40%; 
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.name, .career{
+    width: 100%;
+    padding: 3% 10%;
+}
+
+.name p{
+    display: flex;
+    align-content: flex-start;
+    padding: 0 10%;
+    font-size: 2.2rem;
+}
+
+.career p{
+    width: 40%;
+    text-align: center;
+    font-size: 2.2rem;
+    padding-left: 18%;
+}
+
+.between{
+    width: 100%;
+}
+
+.between p{
+    align-content: center;
+    font-size: 2.2rem;
+}
+
+.sm-blurb{
+    display: flex;
+    justify-content: center;
+    padding: 10% 0;
+}
+
+.sm-blurb p, .sm-blurb a{
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
 }

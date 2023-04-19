@@ -1,6 +1,9 @@
 /* eslint-disable react/prop-types */
 import React from "react"
 
+//Contact Styles:
+import "../styles/css/contact.css"
+
 export default function Contact(){
 
     return (
