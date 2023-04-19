@@ -17,6 +17,7 @@ h3{
 p,
 a {
   font-size: 1.6rem;
+  color: #859aaf;
 }
 
 .copyright p {
@@ -25,4 +26,10 @@ a {
 
 .Portfolio {
   text-align: center;
+  scroll-behavior: smooth;
+  background-color: #0b081f;
+}
+
+section{
+  scroll-behavior: smooth;
 }

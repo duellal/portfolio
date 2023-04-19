@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: aqua;
+    background-color: #091941;
 }
 
 .logoDiv{
@@ -28,33 +28,53 @@
     justify-content: space-between;
 }
 
-#header .nav-item{
+#header .nav-item {
     width: 18.25%;
     padding: 1.5% 1%;
+    background-color: #394f89;
 }
 
 #header .nav-item a{
     font-size: 1.3rem;
-    
+    color: #07cae8;
 }
 
 .home{
-    background-color: rgb(184, 126, 238);
-    margin-right:
+    transition: 0.3s;
+}
+.home:hover{
+    transform: scale(1.1)
 }
 
 .about{
-    background-color: greenyellow;
+    transition: 0.3s;
+}
+.about:hover{
+    transform: scale(1.1)
 }
 
 .projects{
-    background-color: orange;
+    transition: 0.3s;
+}
+.projects:hover{
+    transform: scale(1.1)
 }
 
 .contact{
-    background-color: rgb(255, 112, 112);
+    transition: 0.3s;
+}
+.contact:hover{
+    transform: scale(1.1)
 }
 
 .resume{
-    background-color: yellow
+    transition: 0.3s;
+}
+.resume:hover{
+    transform: scale(1.1)
+}
+.resume-span{
+    font-size: 1.3rem;
+    width: 100%;
+    color: #07cae8;
 }

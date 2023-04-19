@@ -25,19 +25,19 @@ export default function Header(){
                 <img className="logo" alt="AED Logo" src="favicon.ico"/>
             </div>
             <Navbar>
-                <Nav tabs fill>
-                    <NavItem className="home">
-                        <NavLink to="/" onClick={() => scrollToElem("title")}>
+                <Nav>
+                    <NavItem className="home" onClick={() => scrollToElem("title")}>
+                        <NavLink to="/" >
                             Home
                         </NavLink>
                     </NavItem>
-                    <NavItem className="about">
-                        <NavLink to="#about" onClick={() => scrollToElem("about")}>
+                    <NavItem className="about" onClick={() => scrollToElem("about")}>
+                        <NavLink to="#about" >
                             About
                         </NavLink>
                     </NavItem>
-                    <NavItem className="projects" >
-                        <NavLink to="#projects" onClick={() => scrollToElem("projects")}>
+                    <NavItem className="projects" onClick={() => scrollToElem("projects")}>
+                        <NavLink to="#projects" >
                             Projects
                         </NavLink>
                     </NavItem>
@@ -50,15 +50,15 @@ export default function Header(){
                         </NavLink>
                     </NavItem> 
                     */}
-                    <NavItem className="contact" >
-                        <NavLink to="#contact" onClick={() => scrollToElem("contact")}>
+                    <NavItem className="contact" onClick={() => scrollToElem("contact")}>
+                        <NavLink to="#contact" >
                             Contact
                         </NavLink>
                     </NavItem>
-                    <NavItem className="resume">
-                        <a href={pdf} target="_blank" rel="noreferrer">
+                    <NavItem className="resume" onClick={() => { window.open(pdf) }}>
+                        <span className="resume-span">
                             Resume
-                        </a>
+                        </span>
                     </NavItem>
                 </Nav>
             </Navbar>
