@@ -34,11 +34,6 @@ header .nav-item {
     background-color: #394f89;
 }
 
-header .nav-item a{
-    font-size: 1.3rem;
-    color: #07cae8;
-}
-
 .home{
     transition: 0.3s;
 }

@@ -27,6 +27,10 @@ a {
   color: #859aaf;
 }
 
+a{
+  color: #69C913;
+}
+
 .copyright p {
   font-size: 1.2rem;
 }
@@ -39,4 +43,9 @@ a {
 
 section{
   scroll-behavior: smooth;
+}
+
+.nav-item a{
+  font-size: 1.3rem;
+  color: #07cae8;
 }

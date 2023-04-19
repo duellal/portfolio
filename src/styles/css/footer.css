@@ -8,3 +8,7 @@ footer {
 footer .nav-item a{
     color: #07cae8;
 }
+
+footer p, footer a{
+    font-size: 1.3rem;
+}
