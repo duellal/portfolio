@@ -9,12 +9,35 @@ export default function Title(){
     
     return (
         <section id="title"> 
-            <h1 className="name">
-                Alexandria Duell
-            </h1>
-            <h2 className="career">
+            <div className="name">
+                <p>
+                    Hi, my name is ...
+                </p>
+                <h1>
+                    Alexandria Duell
+                </h1>
+            </div>
+            <div className="between">
+                <p>
+                    and
+                </p>
+            </div>
+            <div className="career">
+            <p>
+                I&apos;m a ...
+            </p>
+            <h2>
                 Software Engineer
             </h2>
+            </div>
+            <div className="sm-blurb">
+                <p>
+                    I specialize in creating web applications and building databases. I enjoy projects that keep me on my toes. Currently, I am updating my {' '}
+                    <a href="https://character-randomizer.netlify.app/" target="new">
+                        Character Randomization project.
+                    </a>
+                </p>
+            </div>
         </section>
     )
 }
