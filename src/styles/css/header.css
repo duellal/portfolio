@@ -1,4 +1,4 @@
-#header{
+header{
     position: fixed;
     width: 100%;
     display: flex;
@@ -16,25 +16,25 @@
     width: 6%;
 }
 
-#header .navbar{
+header .navbar{
     width: 40%;
     padding: 0% 1%;
     margin-top: 3%;
 }
 
-#header .nav{
+header .nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#header .nav-item {
+header .nav-item {
     width: 18.25%;
     padding: 1.5% 1%;
     background-color: #394f89;
 }
 
-#header .nav-item a{
+header .nav-item a{
     font-size: 1.3rem;
     color: #07cae8;
 }

@@ -4,6 +4,9 @@ import {
     NavItem, 
     Navbar } from "reactstrap";
 
+//Footer Styles:
+import "../styles/css/footer.css"
+
 //Resume PDF:
 import pdf from '../static/resume.pdf'
 

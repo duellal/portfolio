@@ -1,0 +1,10 @@
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #091941;
+}
+
+footer .nav-item a{
+    color: #07cae8;
+}

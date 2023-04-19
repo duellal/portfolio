@@ -20,7 +20,7 @@ export default function Header(){
     }
 
     return (
-        <header id="header">
+        <header>
             <div className="logoDiv">
                 <img className="logo" alt="AED Logo" src="favicon.ico"/>
             </div>
