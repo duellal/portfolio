@@ -9,7 +9,7 @@ import gitHub from "../static/images/gitHub/github-mark.png"
 
 export default function Projects(){
     return(
-        <div id="projects">
+        <section id="projects">
             <h3>
                 Past and Current Projects
             </h3>
@@ -65,6 +65,6 @@ export default function Projects(){
                     <img src={gitHub} />
                 </a>
             </div>
-        </div>
+        </section>
     )
 }
