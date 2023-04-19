@@ -1,7 +1,22 @@
+#projects{
+    padding: 10% 5%;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+#projects h3{
+    width: 100%;
+    padding: 5% 0;
+}
+
 #projects h2 a{
     color: #07cae8;
 }
-/* 
-#projects p a{
-    color: #69c913
-} */
+
+#projects img{
+    width: 40%;
+}
+
+.github{
+    width: 8%;
+}

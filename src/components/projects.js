@@ -29,17 +29,21 @@ export default function Projects(){
                         thenerdd.com
                     </a>
                </p>
-                <div className="char-p-div">
-                    <p>
-                        A website built to help game masters and players create D&D characters either randomly, partially randomly, or to create a reference for their characters.
-                    </p>
-                    <p>
-                        It is currently partially complete as I was working on this massive project while I was learning code in order to practice what I had learned.
-                    </p>
+               <div className="char-text-box">
+                    <div className="char-p-div">
+                        <p>
+                            A website built to help game masters and players create D&D characters either randomly, partially randomly, or to create a reference for their characters.
+                        </p>
+                        <p>
+                            It is currently partially complete as I was working on this massive project while I was learning code in order to practice what I had learned.
+                        </p>
+                    </div>
+                    <div className="github">
+                        <a href="https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter" target="new">
+                            <img src={gitHub} />
+                        </a>
+                    </div>
                 </div>
-                <a href="https://github.com/Character-Randomizer" target="new">
-                    <img src={gitHub} />
-                </a>
             </div>
             <div className="animal-shelter-div">
                 <h2>
@@ -48,25 +52,29 @@ export default function Projects(){
                     </a>
                 </h2>
                 <img src={austinShelterPic} className="shelter-pic" loading="lazy" alt="Golden lab looking sad in a kennel" />
-                <div className="shelter-p-div">
-                    <p>
-                        I analyzed Austin Animal Shelter&apos;s claim of being a no-kill shelter based off of data found by the {' '}
-                        <a href="https://data.austintexas.gov/" target="_blank" rel="noreferrer">
-                            Texas Government
+                <div className="shelter-text-box">
+                    <div className="shelter-p-div">
+                        <p>
+                            I analyzed Austin Animal Shelter&apos;s claim of being a no-kill shelter based off of data found by the {' '}
+                            <a href="https://data.austintexas.gov/" target="_blank" rel="noreferrer">
+                                Texas Government
+                            </a>
+                            . I made a {' '}
+                            <a href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
+                                Medium article
+                            </a>
+                            {' '} about my findings.
+                        </p>
+                        <p>
+                            ** Based off of a project by Lambda school (now BloomTech).
+                        </p>
+                    </div>
+                    <div className="github">
+                        <a href="https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter" target="new">
+                            <img src={gitHub} />
                         </a>
-                        . I made a {' '}
-                        <a href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
-                            Medium article
-                        </a>
-                        {' '} about my findings.
-                    </p>
-                    <p>
-                        ** Based off of a project by Lambda school (now BloomTech).
-                    </p>
-                </div>
-                <a href="https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter" target="new">
-                    <img src={gitHub} />
-                </a>
+                    </div>
+                </div>                    
             </div>
         </section>
     )
