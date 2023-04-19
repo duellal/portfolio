@@ -18,11 +18,11 @@ export default function Footer(){
                     Designed and built by Alexandria Duell
                 </a>
                 <p>
-                    with inspiration from
+                    with inspiration from {' '}
                     <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer"> 
                         Brittany Chiang
                     </a>
-                    and
+                    {' '} and {' '}
                     <a href="https://master--dainty-gingersnap-5fbbe4.netlify.app" target="_blank" rel="noreferrer"> 
                         Jessica Duell
                     </a>
