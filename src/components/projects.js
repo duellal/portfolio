@@ -16,67 +16,67 @@ export default function Projects(){
             <h3>
                 Past and Current Projects
             </h3>
-            <div className="char-random-div">
-                <h2>
-                <a href="https://character-randomizer.netlify.app" target="new">
+            <div className="char-random-div project-divs">
+                <h4 className="char-title">
+                <a className="char-link" href="https://character-randomizer.netlify.app" target="new">
                     Character Randomization Website
                 </a>
-                </h2>
+                </h4>
                 <div className="char-pic">
-                    <img src={charRandomPic} className="char-random-pic" loading="lazy" alt="Various different possible headshots of non-player characters (NPCs) drawn and colored" />
+                    <img src={charRandomPic} className="npc-pic" loading="lazy" alt="Various different possible headshots of non-player characters (NPCs) drawn and colored" />
                     <p>
                         Picture from {' '}
                         <a href="https://thenerdd.com/2021/01/15/7-steps-to-make-a-dd-npc" target="new">
                             thenerdd.com
                         </a>
-                </p>
-               </div>
-               <div className="char-text-box">
-                    <div className="char-p-div">
-                        <p>
-                            A website built to help game masters and players create D&D characters either randomly, partially randomly, or to create a reference for their characters.
-                        </p>
-                        <p>
-                            It is currently partially complete as I was working on this massive project while I was learning code in order to practice what I had learned.
-                        </p>
-                    </div>
-                    <div className="github">
-                        <img className="github-logo img" src={gitHub} onClick={() => {
+                    </p>
+                </div>
+               <div className="text-box">
+                    <div className="text-box border">
+                        <div className="p-div">
+                            <p>
+                                A website built to help game masters and players create D&D characters either randomly, partially randomly, or to create a reference for their characters.
+                            </p>
+                            <p>
+                                It is currently partially complete as I was working on this massive project while I was learning code in order to practice what I had learned.
+                            </p>
+                        </div>
+                        <img className="github right" src={gitHub} onClick={() => {
                             window.open(`https://github.com/Character-Randomizer`)
                         }}/>
                     </div>
                 </div>
             </div>
-            <div className="animal-shelter-div">
-                <h2>
-                    <a href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
+            <div className="animal-shelter-div project-divs">
+                <h4 className="shelter-title">
+                    <a className="shelter-title shelter-link" href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
                         Austin Animal Shelter Analysis
                     </a>
-                </h2>
-                <img src={austinShelterPic} className="shelter-pic" loading="lazy" alt="Golden lab looking sad in a kennel" />
-                <div className="shelter-text-box">
-                    <div className="shelter-p-div">
-                        <p>
-                            I analyzed Austin Animal Shelter&apos;s claim of being a no-kill shelter based off of data found by the {' '}
-                            <a href="https://data.austintexas.gov/" target="_blank" rel="noreferrer">
-                                Texas Government
-                            </a>
-                            . I made a {' '}
-                            <a href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
-                                Medium article
-                            </a>
-                            {' '} about my findings.
-                        </p>
-                        <p>
-                            ** Based off of a project by Lambda school (now BloomTech).
-                        </p>
-                    </div>
-                    <div className="github">
-                        <img className="github-logo img" src={gitHub} onClick={() => {
-                            window.open(`https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter`)
+                </h4>
+                <div className="text-box">
+                    <div className="text-box border">
+                        <img className="github left" src={gitHub} onClick={() => {
+                            window.open(`https://github.com/Character-Randomizer`)
                         }}/>
+                        <div className="p-div">
+                            <p>
+                                I analyzed Austin Animal Shelter&apos;s claim of being a no-kill shelter based off of data found by the {' '}
+                                <a href="https://data.austintexas.gov/" target="_blank" rel="noreferrer">
+                                    Texas Government
+                                </a>
+                                . I made a {' '}
+                                <a href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
+                                    Medium article
+                                </a>
+                                {' '} about my findings.
+                            </p>
+                            <p>
+                                ** Based off of a project by Lambda school (now BloomTech).
+                            </p>
+                        </div>
                     </div>
-                </div>                    
+                </div>           
+                <img src={austinShelterPic} className="shelter-pic" loading="lazy" alt="Golden lab looking sad in a kennel" />         
             </div>
         </section>
     )

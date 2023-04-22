@@ -1,3 +1,4 @@
+/* For all projects: */
 #projects{
     padding: 10% 5%;
     display: flex; 
@@ -9,42 +10,41 @@
     padding: 5% 0;
 }
 
-#projects h2 a{
+/* .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa; */
+
+#projects h4 {
+    width: 100%;
+    padding: 1% 0;
+}
+
+#projects h4 a{
     color: #07cae8;
+    font-size: 3rem;
+    margin: 10%;
 }
 
-.github-logo{
-    width: 50%;
+.github{
+    width: 5%;
+    cursor: pointer;
 }
 
-.char-random-div{
+.project-divs{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 8%;
+    padding-bottom: 10%;
 }
 
-.char-random-div h2{
-    width: 70%;
-    text-align: center;
-    margin-left: 30%;
-}
-
-.char-pic {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: 40%
-}
-
-.char-random-pic{
-    width: 100%;
-}
-
-.char-pic p{
-    width: 100%;
-}
-
-.char-text-box{
+.text-box{
     display: flex;
     align-content: center;
     align-items: center;
@@ -52,10 +52,49 @@
     padding: 0 6%;
 }
 
-.char-p-div p{
+.p-div p{
     padding: 4% 0;
 }
 
-.github{
-    margin: 0 0 45% 2%;
+.char-pic, .shelter-pic {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 1%;
+}
+
+.border {
+    width: 100%;
+    padding-bottom: 2%;
+    border: 1px solid #5c21aa;
+    box-shadow: 0px 0px 30px #5c21aa;
+    border-radius: 4%;
+}
+
+/* Character Randomization Project: */
+.npc-pic{
+    width: 100%;
+}
+
+.char-pic p{
+    width: 100%;
+}
+
+.char-title{
+    margin-left: 40%;
+}
+
+.github.right {
+    margin: 45% -4% 0 0;
+
+}
+
+/* Austin Animal Shelter Project: */
+.shelter-title {
+    margin-right: 40%;
+}
+
+.github.left {
+    margin: 45% 0% 0 -4%;
 }
