@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-.project-divs{
+.project-div{
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 10%;
@@ -53,10 +53,10 @@
 }
 
 .p-div p{
-    padding: 4% 0;
+    padding: 2% 0;
 }
 
-.char-pic, .shelter-pic {
+.pic {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -73,15 +73,16 @@
 }
 
 /* Character Randomization Project: */
+/* Will eventually be for all projects with text on the right side:  */
 .npc-pic{
     width: 100%;
 }
 
-.char-pic p{
+.right-pic p{
     width: 100%;
 }
 
-.char-title{
+.right-title{
     margin-left: 40%;
 }
 
@@ -91,7 +92,8 @@
 }
 
 /* Austin Animal Shelter Project: */
-.shelter-title {
+/* Will eventually be for all projects with text on the left side:  */
+.left{
     margin-right: 40%;
 }
 

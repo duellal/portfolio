@@ -16,13 +16,13 @@ export default function Projects(){
             <h3>
                 Past and Current Projects
             </h3>
-            <div className="char-random-div project-divs">
-                <h4 className="char-title">
-                <a className="char-link" href="https://character-randomizer.netlify.app" target="new">
+            <div className="project-div">
+                <h4 className="right-title">
+                <a href="https://character-randomizer.netlify.app" target="new">
                     Character Randomization Website
                 </a>
                 </h4>
-                <div className="char-pic">
+                <div className="pic right-pic">
                     <img src={charRandomPic} className="npc-pic" loading="lazy" alt="Various different possible headshots of non-player characters (NPCs) drawn and colored" />
                     <p>
                         Picture from {' '}
@@ -40,6 +40,9 @@ export default function Projects(){
                             <p>
                                 It is currently partially complete as I was working on this massive project while I was learning code in order to practice what I had learned.
                             </p>
+                            <p>
+                                Unfortunately, the backend is not hooked up to the Netlify website, but it does work locally.
+                            </p>
                         </div>
                         <img className="github right" src={gitHub} onClick={() => {
                             window.open(`https://github.com/Character-Randomizer`)
@@ -47,15 +50,15 @@ export default function Projects(){
                     </div>
                 </div>
             </div>
-            <div className="animal-shelter-div project-divs">
-                <h4 className="shelter-title">
-                    <a className="shelter-title shelter-link" href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
+            <div className="project-div">
+                <h4 className="left-title">
+                    <a href="https://medium.com/@alexandriaduell/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d" target="new">
                         Austin Animal Shelter Analysis
                     </a>
                 </h4>
                 <div className="text-box">
                     <div className="text-box border">
-                        <img className="github left" src={gitHub} onClick={() => {
+                        <img className="github left" src={gitHub} loading="lazy" onClick={() => {
                             window.open(`https://github.com/Character-Randomizer`)
                         }}/>
                         <div className="p-div">
@@ -76,7 +79,7 @@ export default function Projects(){
                         </div>
                     </div>
                 </div>           
-                <img src={austinShelterPic} className="shelter-pic" loading="lazy" alt="Golden lab looking sad in a kennel" />         
+                <img src={austinShelterPic} className="pic" loading="lazy" alt="Golden lab looking sad in a kennel" />         
             </div>
         </section>
     )
