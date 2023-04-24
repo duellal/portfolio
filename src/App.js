@@ -6,7 +6,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Title from './components/title';
 import About from './components/about'
-// Doing this wehn I have time after rest of portfolio is complete:
+// Doing this when I have time after portfolio is complete:
 // import WorkExperience from './components/experience'
 import Contact from './components/contact'
 import Projects from './components/projects'
@@ -19,7 +19,7 @@ export default function App() {
           <About />
           <Projects />
           {/* 
-          Doing this wehn I have time after rest of portfolio is complete:
+          Doing this when I have time after portfolio is complete:
 
           <WorkExperience /> 
           */}

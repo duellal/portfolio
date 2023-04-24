@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-
 import React from "react";
 import { NavLink } from "react-router-dom";
 import {
@@ -42,7 +41,7 @@ export default function Header(){
                         </NavLink>
                     </NavItem>
                     {/* 
-                    Doing this wehn I have time after rest of portfolio is complete:
+                    Doing this when I have time after portfolio is complete:
                     
                     <NavItem className="experience">
                         <NavLink to="#experience">
