@@ -32,6 +32,7 @@ header .nav-item {
     width: 18.25%;
     padding: 1.5% 1%;
     background-color: #394f89;
+    cursor: pointer;
 }
 
 .home{
