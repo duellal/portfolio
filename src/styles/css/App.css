@@ -30,9 +30,9 @@ h2 {
       0 0 82px #0adefe,
       0 0 92px #0adefe;
   transition: text-shadow 5s;
-  /* animation: 
+  animation: 
     3s ease-in 2.5s h2Flicker,
-    3s ease-out 5.5s h2Pulsate; */
+    3s ease-out 5.5s h2Pulsate;
 }
 
 h3{
