@@ -1,6 +1,35 @@
 h1 {
   font-size: 6rem;
-  color: #69c913;
+  color: #091941;
+  text-shadow: 
+      0 0 7px #69c913,
+      0 0 10px #69c913,
+      0 0 21px #69c913,
+      0 0 42px #69c913,
+      0 0 82px #69c913,
+      0 0 92px #69c913;
+  animation-name: flicker;
+  animation-duration: 1.5s;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 7px #69c913,
+      0 0 10px #69c913,
+      0 0 21px #69c913,
+      0 0 42px #69c913,
+      0 0 82px #69c913,
+      0 0 92px #69c913;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
 }
 
 button {
@@ -8,13 +37,27 @@ button {
 }
 
 h2 {
-  font-size: 3.5rem;
-  color: #07cae8;
+  font-size: 4rem;
+  color: #091941;
+  text-shadow: 
+      0 0 7px #0adefe,
+      0 0 10px #0adefe,
+      0 0 21px #0adefe,
+      0 0 42px #0adefe,
+      0 0 82px #0adefe,
+      0 0 92px #0adefe;
 }
 
 h3{
-  font-size: 3rem;
-  color: #07cae8;
+  font-size: 5rem;
+  color: #091941;
+  text-shadow: 
+      0 0 7px #0adefe,
+      0 0 10px #0adefe,
+      0 0 21px #0adefe,
+      0 0 42px #0adefe,
+      0 0 82px #0adefe,
+      0 0 92px #0adefe;
 }
 
 h4{

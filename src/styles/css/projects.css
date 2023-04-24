@@ -1,7 +1,102 @@
-#projects h2 a{
-    color: #07cae8;
+/* For all projects: */
+#projects{
+    padding: 10% 5%;
+    display: flex; 
+    flex-wrap: wrap;
 }
-/* 
-#projects p a{
-    color: #69c913
-} */
+
+#projects h3{
+    width: 100%;
+    padding: 5% 0;
+}
+
+/* .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa; */
+
+#projects h4 {
+    width: 100%;
+    padding: 1% 0;
+}
+
+#projects h4 a{
+    color: #07cae8;
+    font-size: 3rem;
+    margin: 10%;
+}
+
+.github{
+    width: 5%;
+    cursor: pointer;
+}
+
+.project-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+
+.text-box{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 0 6%;
+}
+
+.p-div p{
+    padding: 2% 0;
+}
+
+.pic {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 1%;
+}
+
+.border {
+    width: 100%;
+    padding-bottom: 2%;
+    border: 1px solid #5c21aa;
+    box-shadow: 0px 0px 30px #5c21aa;
+    border-radius: 4%;
+}
+
+/* Character Randomization Project: */
+/* Will eventually be for all projects with text on the right side:  */
+.npc-pic{
+    width: 100%;
+}
+
+.right-pic p{
+    width: 100%;
+}
+
+.right-title{
+    margin-left: 40%;
+}
+
+.github.right {
+    margin: 45% -4% 0 0;
+
+}
+
+/* Austin Animal Shelter Project: */
+/* Will eventually be for all projects with text on the left side:  */
+.left{
+    margin-right: 40%;
+}
+
+.github.left {
+    margin: 45% 0% 0 -4%;
+}
