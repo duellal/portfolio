@@ -13,7 +13,7 @@ import pdf from '../static/resume.pdf'
 export default function Footer(){ 
     return (
         <footer>
-            <div>
+            <div className="credit">
                 <a href="https://github.com/duellal/portfolio" target="_blank" rel="noreferrer">
                     Designed and built by Alexandria Duell
                 </a>
@@ -47,8 +47,11 @@ export default function Footer(){
             </Navbar>
 
             <div className="copyright">
-                <p>
-                &copy; Alexandria Duell
+                <p className="name">
+                Alexandria Duell
+                </p>
+                <p className="year">
+                    2023
                 </p>
             </div>
         </footer>
