@@ -11,14 +11,14 @@ export default function Contact(){
             <h3> Get in Touch with Alex! </h3>
             <div>
                 <p>
-                    Feel free to contact me with any questions or job opportunities.
+                    Feel free to email me with any questions or job opportunities.
                 </p>
 
-                <a href="mailto:aduellswe@gmail.com" rel=" noreferrer" target="_blank">
-                    <button className="email-btn">
+                <div className="btn-div">
+                    <button className="email-btn" onClick={() => { window.open(`mailto:aduellswe@gmail.com`) }}>
                         Contact Me
                     </button>
-                </a>
+                </div>
             </div>
         </div>
     )
