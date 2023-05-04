@@ -2,40 +2,23 @@ h1 {
   font-size: 6rem;
   color: #091941;
   text-shadow: 
-      0 0 7px #69c913,
-      0 0 10px #69c913,
-      0 0 21px #69c913,
-      0 0 42px #69c913,
-      0 0 82px #69c913,
-      0 0 92px #69c913;
-  animation-name: flicker;
-  animation-duration: 1.5s;
-}
-
-/* Flickering animation */
-@keyframes flicker {
-    
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-
-      text-shadow:
-      0 0 7px #69c913,
-      0 0 10px #69c913,
-      0 0 21px #69c913,
-      0 0 42px #69c913,
-      0 0 82px #69c913,
-      0 0 92px #69c913;
-  
-  }
-  
-  20%, 24%, 55% {        
-      text-shadow: none;
-  }    
+    0 0 7px #81eb23,
+    0 0 10px #81eb23,
+    0 0 21px #81eb23,
+    0 0 42px #81eb23,
+    0 0 82px #81eb23,
+    0 0 92px #81eb23,
+    0 0 102px #81eb23;
+  animation: 
+    3s ease-in h1Flicker,
+    6s ease-out alternate 3s h1Pulsate;
 }
 
 button {
   font-size: 1.8rem;
 }
 
+/* Want to make first h2 color this light color (56e8fe) and then flicker + pulse to the darker color (0adefe) */
 h2 {
   font-size: 4rem;
   color: #091941;
@@ -46,6 +29,10 @@ h2 {
       0 0 42px #0adefe,
       0 0 82px #0adefe,
       0 0 92px #0adefe;
+  transition: text-shadow 5s;
+  animation: 
+    3s ease-in 2.5s h2Flicker,
+    3s ease-out 5.5s h2Pulsate;
 }
 
 h3{
@@ -88,7 +75,99 @@ section{
   scroll-behavior: smooth;
 }
 
-.nav-item a{
+.nav-item{
   font-size: 1.3rem;
   color: #07cae8;
+}
+
+/* ANIMATIONS: */
+/* Flickering */
+@keyframes h1Flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+      0 0 7px #69c913,
+      0 0 10px #69c913,
+      0 0 21px #69c913,
+      0 0 42px #69c913,
+      0 0 82px #69c913,
+      0 0 92px #69c913;
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+@keyframes h2Flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+      0 0 7px #0adefe,
+      0 0 10px #0adefe,
+      0 0 21px #0adefe,
+      0 0 42px #0adefe,
+      0 0 82px #0adefe,
+      0 0 92px #0adefe;
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+/* Pulsate */
+@keyframes h1Pulsate {
+  100% {
+      text-shadow:
+      0 0 7px #81eb23,
+      0 0 11px #81eb23,
+      0 0 22px #81eb23,
+      0 0 49px #81eb23,
+      0 0 89px #81eb23,
+      0 0 102px #81eb23,
+      0 0 108px #81eb23;
+  }
+
+  0% {
+    text-shadow:
+    0 0 7px #69c913,
+    0 0 10px #69c913,
+    0 0 21px #69c913,
+    0 0 42px #69c913,
+    0 0 82px #69c913,
+    0 0 92px #69c913;
+  }
+}
+
+@keyframes h2Pulsate {
+  100% {
+    text-shadow:
+    0 0 7px #0adefe,
+    0 0 11px #0adefe,
+    0 0 22px #0adefe,
+    0 0 49px #0adefe,
+    0 0 89px #0adefe,
+    0 0 102px #0adefe,
+    0 0 108px #0adefe;
+  }
+
+  /* 50% {
+      text-shadow:
+      0 0 7px #56e8fe,
+      0 0 10px #56e8fe,
+      0 0 21px #56e8fe,
+      0 0 42px #56e8fe,
+      0 0 82px #56e8fe,
+      0 0 92px #56e8fe,
+      0 0 108px #56e9fe;
+  } */
+
+  0% {
+    text-shadow:
+    0 0 7px #0adefe,
+    0 0 10px #0adefe,
+    0 0 21px #0adefe,
+    0 0 42px #0adefe,
+    0 0 82px #0adefe,
+    0 0 92px #0adefe;
+  }
 }
