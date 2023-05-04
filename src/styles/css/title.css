@@ -4,12 +4,12 @@
     flex-wrap: wrap;  
 }
 
-.name, .career{
+#title .name, .career{
     width: 100%;
     padding: 3% 10%;
 }
 
-.name p{
+#title .name p{
     display: flex;
     align-content: flex-start;
     padding: 0 10%;

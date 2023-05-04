@@ -1,6 +1,9 @@
 footer {
+    padding: 1% 0 2% 0;
+    margin-top: 1%;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #091941;
 }
@@ -9,6 +12,37 @@ footer p, footer a{
     font-size: 1.3rem;
 }
 
-footer .nav-item {
+.credit{
+    width: 100%;
+}
+
+footer .navbar{
+    width: 50%;
+}
+
+footer .nav{
+    display:flex;
+
+}
+
+footer .nav-item{
+    padding: 1% 0;
+    width: 20%;
     cursor: pointer;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.copyright .name{
+    text-align: end;
+    width: 65%;
+}
+
+.copyright .year{
+    text-align: left;
+    padding-left: .5%;
 }
