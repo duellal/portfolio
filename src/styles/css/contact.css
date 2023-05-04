@@ -1,5 +1,36 @@
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10% 0 15%;
+    justify-content: center;
+}
+
+#contact h3{
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+#contact div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contact p{
+    padding: 4% 0;
+    font-size: 2.1rem;
+    width: 60%;
+}
+
+#contact .btn-div{
+    width: 100%;
+    padding: 
+}
+
 button{
     background-color: #394f89;
     cursor: pointer;
     color: #07cae8;
+    height: 50px;
+    width: 20%;
 }
