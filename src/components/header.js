@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import { NavLink } from "react-router-dom";
 import {
     Nav, 
     NavItem, 
@@ -26,19 +25,13 @@ export default function Header(){
             <Navbar>
                 <Nav>
                     <NavItem className="home" onClick={() => scrollToElem("title")}>
-                        <NavLink to="/" >
                             Home
-                        </NavLink>
                     </NavItem>
                     <NavItem className="about" onClick={() => scrollToElem("about")}>
-                        <NavLink to="#about" >
                             About
-                        </NavLink>
                     </NavItem>
                     <NavItem className="projects" onClick={() => scrollToElem("projects")}>
-                        <NavLink to="#projects" >
                             Projects
-                        </NavLink>
                     </NavItem>
                     {/* 
                     Doing this when I have time after portfolio is complete:
@@ -50,14 +43,10 @@ export default function Header(){
                     </NavItem> 
                     */}
                     <NavItem className="contact" onClick={() => scrollToElem("contact")}>
-                        <NavLink to="#contact" >
                             Contact
-                        </NavLink>
                     </NavItem>
                     <NavItem className="resume" onClick={() => { window.open(pdf) }}>
-                        <span className="resume-span">
                             Resume
-                        </span>
                     </NavItem>
                 </Nav>
             </Navbar>
