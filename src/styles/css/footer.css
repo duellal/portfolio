@@ -5,10 +5,15 @@ footer {
     background-color: #091941;
 }
 
-footer .nav-item a{
+/* footer .nav-item a{
     color: #07cae8;
-}
+    width: 100%;
+} */
 
 footer p, footer a{
     font-size: 1.3rem;
+}
+
+footer .nav-item {
+    cursor: pointer;
 }

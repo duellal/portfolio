@@ -1,7 +1,8 @@
 import React from "react";
 import {
     Nav, 
-    NavItem, 
+    NavItem,
+    NavLink, 
     Navbar } from "reactstrap";
 
 //Footer Styles:
@@ -31,25 +32,25 @@ export default function Footer(){
             
              <Navbar>
                 <Nav tabs fill>
-                    <NavItem>
-                        <a href="https://github.com/duellal" target="_blank" rel="noreferrer">
+                    <NavItem onClick={() => {window.open('https://github.com/duellal')}}>
+                        <NavLink href="https://github.com/duellal">
                             Github
-                        </a>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <a href="https://www.linkedin.com/in/alexandria-duell" target="_blank" rel="noreferrer">
+                        <NavLink href="https://www.linkedin.com/in/alexandria-duell" target="_blank" rel="noreferrer">
                             LinkedIn
-                        </a>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <a href={pdf} target="_blank" rel="noreferrer">
+                        <NavLink href={pdf} target="_blank" rel="noreferrer">
                             Resume
-                        </a>
+                        </NavLink>
                     </NavItem>
                     <NavItem>
-                        <a href="mailto:aduellswe@gmail.com" rel=" noreferrer" target="_blank">
+                        <NavLink href="mailto:aduellswe@gmail.com" rel=" noreferrer" target="_blank">
                             Contact
-                        </a>
+                        </NavLink>
                     </NavItem>
                 </Nav>
             </Navbar>
