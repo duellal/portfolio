@@ -1,5 +1,5 @@
 #about{
-    padding: 10% 5%;
+    padding: 8% 5%;
     display: flex; 
     flex-wrap: wrap;
 }
@@ -10,16 +10,19 @@
 }
 
 .about-text{
-    padding: 1% 9% 2% 2%;
+    padding: 1.5% 10% 1.5% 12%;
     text-align: justify;
 }
 
 .about-text-pic{
     display: flex;
-    align-items: center;
+    align-items: start;
+    justify-content: start;
+    padding-right: 5%;
 }
 
 .about-pic{
     border-radius: 20%;
     box-shadow: 0px 0px 30px #5c21aa;
+    margin: 3% 5% 1% 0;
 }

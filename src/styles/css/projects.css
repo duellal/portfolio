@@ -1,6 +1,6 @@
 /* For all projects: */
 #projects{
-    padding: 10% 5%;
+    padding: 8% 5%;
     display: flex; 
     flex-wrap: wrap;
 }
@@ -12,7 +12,7 @@
 
 #projects h4 {
     width: 100%;
-    padding: 1% 0;
+    padding: 1% 0 3%;
 }
 
 #projects h4 a{
@@ -28,36 +28,50 @@
 
 .project-div{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 10%;
+    padding: 2.5% 0;   
 }
 
 .text-box{
     display: flex;
     align-content: center;
     align-items: center;
-    width: 60%;
-    padding: 0 6%;
+    width: 40%;
+    padding: 0 2%;
+    /* border: 1px solid yellow; */
 }
 
 .p-div p{
     padding: 2% 0;
 }
 
+.p-div.right{
+    padding-left: 6%;
+}
+
+.p-div.left{
+    padding-right: 6%;
+}
+
 .pic {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 40%;
+    width: 30%;
     padding: 1%;
 }
 
 .border {
     width: 100%;
-    padding-bottom: 2%;
+    padding: 2% 0;
     border: 1px solid #5c21aa;
     box-shadow: 0px 0px 30px #5c21aa;
     border-radius: 4%;
+}
+
+.right .text-box{
+    padding-bottom: 1.5%;
 }
 
 /* Character Randomization Project: */
@@ -70,21 +84,13 @@
     width: 100%;
 }
 
-.right-title{
-    margin-left: 40%;
-}
-
 .github.right {
-    margin: 45% -4% 0 0;
+    margin: 48% 3% 0 0;
 
 }
 
 /* Austin Animal Shelter Project: */
 /* Will eventually be for all projects with text on the left side:  */
-.left{
-    margin-right: 40%;
-}
-
 .github.left {
-    margin: 45% 0% 0 -4%;
+    margin: 48% 0% 0 3%;
 }

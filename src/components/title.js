@@ -16,14 +16,9 @@ export default function Title(){
                     Alexandria Duell
                 </h1>
             </div>
-            <div className="between">
-                <p>
-                    and
-                </p>
-            </div>
             <div className="career">
             <p>
-                I&apos;m a ...
+             I&apos;m a ...
             </p>
             <h2>
                 Software Engineer
@@ -31,7 +26,7 @@ export default function Title(){
             </div>
             <div className="sm-blurb">
                 <p>
-                    I specialize in creating web applications and building databases. I enjoy projects that keep me on my toes. Currently, I am working at Story Squad and updating my {' '}
+                    I specialize in creating web applications and building databases. I enjoy projects that keep me on my toes. Currently, I am working at Story Squad and updating the {' '}
                     <a href="https://character-randomizer.netlify.app/" target="new">
                         Character Randomization project.
                     </a>

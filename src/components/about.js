@@ -15,7 +15,7 @@ export default function About(){
             <div className="about-text-pic">
                 <div className="text">
                     <p className="about-text">
-                        Hi there. My name is Alex and I enjoy designing, creating, and implementing applications. I have always been interested in learning coding languages, but did not pursue it until the end of 2020. 
+                        Hey there! My name is Alex and I enjoy designing, creating, and implementing applications. I have always been interested in learning coding languages, but did not pursue it until the end of 2020. 
                     </p>
                     <p className="about-text">
                         I originally got a degree in Mathematics and Elementary Education at Grand Valley State University. I had quite a turbulent experience in the education field. My sister, who also changed careers into the technology field, told me that I should try to learn code. She told me that I would really enjoy it, especially with my mathematics background. 
@@ -32,7 +32,7 @@ export default function About(){
                         <a href="https://www.storysquad.education/" target="_blank" rel="noreferrer">
                             Story Squad
                         </a>
-                        . I love the collaboration and ideas that form into a product that will help children grow and improve in their reading, writing, and drawing skills. 
+                        . I love the collaboration and ideas that are forming into a product that will help children grow and improve in their reading, writing, and drawing skills. 
                     </p>
                     <p className="about-text">
                         I look forward to all the projects that I will be a part of. I know there are a lot of projects that I can work on with my various interests; such as science, education, helping combat humanity&apos;s role in climate change, gaming (both board games and virtual ones), and the arts. I am open to any opportunity that can help me expand my skill set and knowledge in the field. 
