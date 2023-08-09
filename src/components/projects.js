@@ -58,7 +58,7 @@ export default function Projects(){
                 <div className="text-box">
                     <div className="text-box border">
                         <img className="github left" src={gitHub} loading="lazy" onClick={() => {
-                            window.open(`https://github.com/Character-Randomizer`)
+                            window.open(`https://github.com/duellal/DS-Unit-1-Build-Austin-Animal-Shelter`)
                         }}/>
                         <div className="p-div left">
                             <p>

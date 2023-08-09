@@ -26,7 +26,7 @@ export default function Title(){
             </div>
             <div className="sm-blurb">
                 <p>
-                    I specialize in creating web applications and building databases. I enjoy projects that keep me on my toes. Currently, I am working at Story Squad and updating the {' '}
+                    I specialize in creating web applications and building databases. I enjoy projects that keep me on my toes. Currently, I am working at SchwaaWeb and updating the {' '}
                     <a href="https://character-randomizer.netlify.app/" target="new">
                         Character Randomization project.
                     </a>
