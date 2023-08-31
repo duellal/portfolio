@@ -55,10 +55,19 @@
 
 .pic {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     width: 30%;
     padding: 1%;
+}
+
+.pic p {
+    width: 100%;
+}
+
+.tictactoe {
+    background-color: white;
+    width: 100%;
 }
 
 .border {
@@ -76,10 +85,6 @@
 /* Character Randomization Project: */
 /* Will eventually be for all projects with text on the right side:  */
 .npc-pic{
-    width: 100%;
-}
-
-.right-pic p{
     width: 100%;
 }
 
