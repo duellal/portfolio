@@ -48,10 +48,7 @@ export default function Footer(){
 
             <div className="copyright">
                 <p className="name">
-                Alexandria Duell
-                </p>
-                <p className="year">
-                    2023
+                    Alexandria Duell &copy; {new Date().getFullYear()}
                 </p>
             </div>
         </footer>
