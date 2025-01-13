@@ -59,7 +59,7 @@ export default function Projects(){
                                 This <a href="https://aed-tic-tac-toe.netlify.app" target="new">
                                     project {' '}
                             </a> 
-                                 a game of Tic-Tac-Toe with directions, a reset button, and a turn list. The turn list allows the players to go back to a previous turn and try another move. 
+                                 is a game of Tic-Tac-Toe with directions, a reset button, and a turn list. The turn list allows the players to go back to a previous turn and try another move. 
                             </p>
                             <p>
                                 Once a button on the turn list gets pushed, the other turn buttons remain until a different square is selected for that turn. The players can also use the turn list to see the progression of the game they played. 
