@@ -36,6 +36,11 @@ header .nav-item {
     cursor: pointer;
 }
 
+.home, .about, 
+.projects, .contact, 
+.resume {
+    font-size: 1.75em;
+}
 .home{
     transition: 0.3s;
 }

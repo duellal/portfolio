@@ -35,11 +35,7 @@ export default function About(){
                         . I loved the collaboration and ideas that formed into a product that will help children grow and improve in their reading, writing, and drawing skills. 
                     </p>
                     <p className="about-text">
-                        Currently I work at {' '}
-                        <a href="https://www.schwaaweb.com/" target="_blank" rel="noreferrer">
-                            SchwaaWeb
-                        </a>
-                        . We are building a product that will help people to interact with the outside world more. We are doing this by integrating chatGPT and notifications to help remind people of doing simple things that will improve their quality of life.
+                        Currently I work at Ambit as a contract worker on various projects. I am also in the process of getting my Computer Science degree at Oregon State University in a remote program.
                     </p>
                     <p className="about-text">
                         I look forward to all the projects that I will be a part of. I know there are a lot of projects that I can work on with my various interests; such as science, education, helping combat humanity&apos;s role in climate change, gaming (both board games and virtual ones), and the arts. I am open to any opportunity that can help me expand my skill set and knowledge in the field. 
