@@ -19,7 +19,7 @@ export default function Footer(){
                 </a>
                 <p>
                     with inspiration from {' '}
-                    <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer"> 
+                    <a href="https://v4.brittanychiang.com/" target="_blank" rel="noreferrer"> 
                         Brittany Chiang
                     </a>
                     {' '} and {' '}
