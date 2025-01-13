@@ -18,14 +18,14 @@ export default function About(){
                         Hey there! My name is Alex and I enjoy designing, creating, and implementing applications. I have always been interested in learning coding languages, but did not pursue it until the end of 2020. 
                     </p>
                     <p className="about-text">
-                        I originally got a degree in Mathematics and Elementary Education at Grand Valley State University. I had quite a turbulent experience in the education field. My sister, who also changed careers into the technology field, told me that I should try to learn code. She told me that I would really enjoy it, especially with my mathematics background. 
+                        Originally, I got a degree in Mathematics and Elementary Education at Grand Valley State University. I had quite a turbulent experience in the education field, so my sister, who also changed careers into the technology field, told me that I should try to learn code. She told me that I would really enjoy it, especially with my mathematics background, and she was right!
                     </p>
                     <p className="about-text">
                         I refined my programming skills through online courses and self-teaching with the support of my sister. Over the course of the past year, I went from a basic understanding of programming to building a {' '}
                         <a href="https://github.com/Character-Randomizer"target="_blank" rel="noreferrer"> 
-                            react web application from scratch
+                            React.js web application from scratch
                         </a>
-                        . I have worked on a variety of Agile teams to deliver a digital products under tight deadlines.
+                        . I have worked on a variety of Agile teams to deliver digital products under tight deadlines.
                     </p>
                     <p className="about-text">
                         My first job was at {' '}
@@ -38,7 +38,7 @@ export default function About(){
                         Currently I work at Ambit as a contract worker on various projects. I am also in the process of getting my Computer Science degree at Oregon State University in a remote program.
                     </p>
                     <p className="about-text">
-                        I look forward to all the projects that I will be a part of. I know there are a lot of projects that I can work on with my various interests; such as science, education, helping combat humanity&apos;s role in climate change, gaming (both board games and virtual ones), and the arts. I am open to any opportunity that can help me expand my skill set and knowledge in the field. 
+                        I look forward to all the projects that I will be a part of. I know there are a lot of projects that I can work on with my various interests; such as science, education, helping combat humanity&apos;s role in climate change, gaming (both board games and virtual ones), and the arts. In addition, I am open to any opportunity that can help me expand my skill set and knowledge in the field.
                     </p>
                 </div>
                 <img className="about-pic" src={headshot} alt="Picture of Alex"  loading="lazy"/>
