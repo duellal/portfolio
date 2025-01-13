@@ -19,9 +19,6 @@ export default function Header(){
 
     return (
         <header>
-            <div className="logoDiv">
-                {/* <img className="logo" alt="AED Logo" src="favicon.ico"/> */}
-            </div>
             <Navbar>
                 <Nav>
                     <NavItem className="home" onClick={() => scrollToElem("title")}>
@@ -33,15 +30,6 @@ export default function Header(){
                     <NavItem className="projects" onClick={() => scrollToElem("projects")}>
                             Projects
                     </NavItem>
-                    {/* 
-                    Doing this when I have time after portfolio is complete:
-                    
-                    <NavItem className="experience">
-                        <NavLink to="#experience">
-                            Experience
-                        </NavLink>
-                    </NavItem> 
-                    */}
                     <NavItem className="contact" onClick={() => scrollToElem("contact")}>
                             Contact
                     </NavItem>
