@@ -19,7 +19,7 @@ export default function Footer(){
                 </a>
                 <p>
                     with inspiration from {' '}
-                    <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer"> 
+                    <a href="https://v4.brittanychiang.com/" target="_blank" rel="noreferrer"> 
                         Brittany Chiang
                     </a>
                     {' '} and {' '}
@@ -48,10 +48,7 @@ export default function Footer(){
 
             <div className="copyright">
                 <p className="name">
-                Alexandria Duell
-                </p>
-                <p className="year">
-                    2023
+                    Alexandria Duell &copy; {new Date().getFullYear()}
                 </p>
             </div>
         </footer>

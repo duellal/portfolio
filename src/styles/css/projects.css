@@ -1,6 +1,6 @@
 /* For all projects: */
 #projects{
-    padding: 4% 5%;
+    padding: 100px 5%;
     display: flex; 
     flex-wrap: wrap;
 }
