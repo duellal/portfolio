@@ -4,10 +4,10 @@ import React from "react";
 //Title Styles:
 import "../styles/css/title.css"
 
-export default function Title(){
-    
+export default function Title() {
+
     return (
-        <section id="title"> 
+        <section id="title">
             <div className="name">
                 <h1>
                     Alexandria Duell
@@ -19,10 +19,10 @@ export default function Title(){
                     Software Engineer
                 </h2>
             </div>
-            
+
             <div className="sm-blurb">
                 <p>
-                    I specialize in creating web applications and building databases. I enjoy projects that uses both my current knowledge, and challenges me to learn other technologies or ways of thinking.
+                    Specializes in web application and database development while embracing opportunities to learn new technologies and encourage new ways of thinking.
                 </p>
             </div>
         </section>

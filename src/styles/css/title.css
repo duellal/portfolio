@@ -1,12 +1,13 @@
 #title{
-    padding: 200px 0 100px 0; 
+    padding: 250px 0 150px 0; 
     display: flex;
     flex-wrap: wrap;  
 }
 
 #title .name, .career{
     width: 100%;
-    padding: 4% 10%;
+    padding: 1% 10%;
+    font-weight: bold;
 }
 
 #title .name p{
@@ -25,7 +26,7 @@
     display: flex;
     justify-content: center;
     justify-self: center;
-    margin: 8% 0;
+    margin: 5% 0;
     width: 100%;
 }
 
