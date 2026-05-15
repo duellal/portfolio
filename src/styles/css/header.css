@@ -20,14 +20,14 @@ header .nav{
 }
 
 header .nav-item {
-    width: 18.25%;
+    width: 15%;
     padding: 2%;
     background-color: #394f89;
     cursor: pointer;
     font-size: 1.75em;
     transition: 0.3s;
     letter-spacing: 1px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 header .nav-item:hover {
